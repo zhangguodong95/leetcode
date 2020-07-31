@@ -1,21 +1,28 @@
+import org.junit.Test;
+
 import java.util.Arrays;
 
+//零钱兑换
 public class _322 {
 
+    @Test
+    public void test() {
+        int[] coins = {2, 5, 10, 1};
+        System.out.println(coinChange(coins, 27));
+    }
+
     public int coinChange(int[] coins, int amount) {
-        //零钱兑换问题
         int[] dp = new int[amount + 1];
-        Arrays.fill(dp,amount + 1);
+        Arrays.fill(dp, amount + 1); //注意这一步使用来作为判断是否能成功转换的标志
         dp[0] = 0;
-        //dp[i] 表示总金额为i的时候 凑成总金额所需要的最少硬币数
-        for (int i = 0; i < amount; i++) {
-            for (int j = 0; j < coins.length; j++) {
-                if (coins[j] < i) {
-                    dp[i] = Math.min(dp[i], dp[i - coins[j]] + 1);
+        for (int i = 1; i < amount + 1; i++) {
+            for (int coin : coins) {
+                if (i - coin >= 0) {
+                    dp[i] = Math.min(dp[i - coin] + 1, dp[i]);
                 }
             }
         }
-        return dp[amount] > amount? -1:dp[amount];
+        return dp[amount] > amount ? -1 : dp[amount];
 
     }
 }

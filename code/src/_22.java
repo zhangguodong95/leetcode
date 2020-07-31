@@ -10,23 +10,19 @@ import java.util.List;
 public class _22 {
     //dfs 加上分治回溯的思想
     public List<String> generateParenthesis(int n) {
-        List<String> res = new ArrayList<String>();
-        dfs(n,res,0,0,"");
+        List<String> res = new ArrayList<>();
+        helper(n, "", res, 0, 0);
         return res;
     }
 
-    public void dfs(int n, List<String> res, int left, int right, String s) {
-        //terminal
-        if ((left + right) == 2 * n) {
+    public void helper(int n, String s, List<String> res, int left, int right) {
+        if (left + right == 2 * n) {
             res.add(s);
             return;
         }
-
-        //process current level and drop down
-        if (left < n) dfs(n, res, left + 1, right, s + '(');
-        if (right < left) dfs(n, res, left, right + 1, s + ')');
-
-        //reverse state
-
+        if (left < n)
+            helper(n, s + '(', res, left + 1, right);
+        if (right < left)
+            helper(n, s + ')', res, left, right + 1);
     }
 }

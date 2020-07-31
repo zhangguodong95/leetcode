@@ -2,105 +2,294 @@
 
 **leetcode题目分类**
 
-### 深度优先搜索和广度优先搜索
+### 1.数组
 
-#### [22.括号生成](https://github.com/zhangguodong95/leetcode/blob/master/22.%20%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90.md#22-%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90)
+- #### [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)
 
-#### [102. 二叉树的层序遍历](https://github.com/zhangguodong95/leetcode/blob/master/102.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86.md#102-%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86)
+- #### [15. 三数之和](https://leetcode-cn.com/problems/3sum/)
 
-#### [200.岛屿数量](https://github.com/zhangguodong95/leetcode/blob/master/200.%20%E5%B2%9B%E5%B1%BF%E6%95%B0%E9%87%8F.md#200-%E5%B2%9B%E5%B1%BF%E6%95%B0%E9%87%8F)
+- #### [11. 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)
 
-#### [515. 在每个树行中找最大值](https://github.com/zhangguodong95/leetcode/blob/master/515.%20%E5%9C%A8%E6%AF%8F%E4%B8%AA%E6%A0%91%E8%A1%8C%E4%B8%AD%E6%89%BE%E6%9C%80%E5%A4%A7%E5%80%BC.md#515-%E5%9C%A8%E6%AF%8F%E4%B8%AA%E6%A0%91%E8%A1%8C%E4%B8%AD%E6%89%BE%E6%9C%80%E5%A4%A7%E5%80%BC)
+- #### [283. 移动零](https://leetcode-cn.com/problems/move-zeroes/)
 
-### 贪心算法
+### 2.Linked List 
 
-#### [860. 柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/)
+- #### [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
 
-#### [122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
+- #### [24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
 
-#### [455. 分发饼干](https://leetcode-cn.com/problems/assign-cookies/)
+- #### [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
 
-#### [874. 模拟行走机器人](https://leetcode-cn.com/problems/walking-robot-simulation/)
+- #### [142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
 
-#### [55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/)
+- #### [25. K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
 
-#### [45. 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/)
+### 3.数组和链表
 
-### 二分查找
+- #### [26. 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
 
-#### [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/)
+- #### [189. 旋转数组](https://leetcode-cn.com/problems/rotate-array/)
 
-#### [367. 有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square/)
+- #### [21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
 
-#### [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)
+- #### [88. 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
 
-#### [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)
+- #### [66. 加一](https://leetcode-cn.com/problems/plus-one/)
 
-#### [153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
+### 4.栈和队列（要分析java stack 和 queue,deque,priorty queue)
 
-### 动态规划（初级）
+- #### [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
 
-#### [509. 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)  一维数组
+- #### [155. 最小栈](https://leetcode-cn.com/problems/min-stack/)
 
-#### [62. 不同路径](https://leetcode-cn.com/problems/unique-paths/)  二维数组
+- #### [84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
 
-#### [63. 不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/)
+- #### [239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
 
-#### [1143. 最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)
+- #### [641. 设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/)
 
-#### [120. 三角形最小路径和](https://leetcode-cn.com/problems/triangle/) 
+- #### [42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/)
 
-#### [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)
+### 5.哈希表，映射，集合
 
-#### [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
+- #### [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)
 
-#### [152. 乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/)
+- #### [49. 字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/)
 
-#### [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)  
+- #### [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)
 
-#### [198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/)
+### 6.树，二叉树，二叉搜索树
 
-#### [213. 打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/)
+- #### [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
 
-#### [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
+- #### [144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
 
-#### [122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
+- #### [590. N叉树的后序遍历](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/)
 
-#### [123. 买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/)
+- #### [589. N叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/)
 
-#### [309. 最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
+- #### [429. N叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)
 
-#### [188. 买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/)
+### 7.泛型递归、树的递归
 
-#### [714. 买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
+### 8. 分治、回溯
 
-#### 一个方法团灭6道股票问题
 
-https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-l-3/
 
-#### [32. 最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)
+### 9.深度优先搜索和广度优先搜索
 
-#### [64. 最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/)
+- #### [22.括号生成](https://github.com/zhangguodong95/leetcode/blob/master/22.%20%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90.md#22-%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90)
 
-#### [72. 编辑距离](https://leetcode-cn.com/problems/edit-distance/)   很重要
+- #### [102. 二叉树的层序遍历](https://github.com/zhangguodong95/leetcode/blob/master/102.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86.md#102-%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86)
 
-#### [91. 解码方法](https://leetcode-cn.com/problems/decode-ways/)
+- #### [200.岛屿数量](https://github.com/zhangguodong95/leetcode/blob/master/200.%20%E5%B2%9B%E5%B1%BF%E6%95%B0%E9%87%8F.md#200-%E5%B2%9B%E5%B1%BF%E6%95%B0%E9%87%8F)
 
-#### [221. 最大正方形](https://leetcode-cn.com/problems/maximal-square/)
+- #### [515. 在每个树行中找最大值](https://github.com/zhangguodong95/leetcode/blob/master/515.%20%E5%9C%A8%E6%AF%8F%E4%B8%AA%E6%A0%91%E8%A1%8C%E4%B8%AD%E6%89%BE%E6%9C%80%E5%A4%A7%E5%80%BC.md#515-%E5%9C%A8%E6%AF%8F%E4%B8%AA%E6%A0%91%E8%A1%8C%E4%B8%AD%E6%89%BE%E6%9C%80%E5%A4%A7%E5%80%BC)
 
-#### [363. 矩形区域不超过 K 的最大数值和](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/)
 
-#### [403. 青蛙过河](https://leetcode-cn.com/problems/frog-jump/)
+### 10.贪心算法
 
-#### [410. 分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum/)
+- #### [860. 柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/)
 
-#### [552. 学生出勤记录 II](https://leetcode-cn.com/problems/student-attendance-record-ii/)
+- #### [122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
+
+- #### [455. 分发饼干](https://leetcode-cn.com/problems/assign-cookies/)
+
+- #### [874. 模拟行走机器人](https://leetcode-cn.com/problems/walking-robot-simulation/)
+
+- #### [55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/)
+
+- #### [45. 跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/)
+
+
+### 11.二分查找
+
+- #### [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/)
+
+- #### [367. 有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square/)
+
+- #### [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)
+
+- #### [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)
+
+- #### [153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
+
+
+### 12.动态规划（初级）
+
+- #### [509. 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)  一维数组
+
+- #### [62. 不同路径](https://leetcode-cn.com/problems/unique-paths/)  二维数组
+
+- #### [63. 不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/)
+
+- #### [1143. 最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)
+
+- #### [120. 三角形最小路径和](https://leetcode-cn.com/problems/triangle/) 
+
+- #### [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)
+
+- #### [53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
+
+- #### [152. 乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/)
+
+- #### [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)  
+
+  #### **实战题目**
+
+- #### [198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/)
+
+- #### [213. 打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/)
+
+- #### [121. 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
+
+- #### [122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
+
+- #### [123. 买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/)
+
+- #### [309. 最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
+
+- #### [188. 买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/)
+
+- #### [714. 买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
+
+- #### [一个方法团灭6道股票问题](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-l-3/)
+
+**家庭作业**
+
+- #### [32. 最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)
+
+- #### [64. 最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/)
+
+- #### [72. 编辑距离](https://leetcode-cn.com/problems/edit-distance/)   很重要
+
+- #### [91. 解码方法](https://leetcode-cn.com/problems/decode-ways/)
+
+- #### [221. 最大正方形](https://leetcode-cn.com/problems/maximal-square/)
+
+- #### [363. 矩形区域不超过 K 的最大数值和](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/)
+
+- #### [403. 青蛙过河](https://leetcode-cn.com/problems/frog-jump/)
+
+- #### [410. 分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum/)
+
+- #### [552. 学生出勤记录 II](https://leetcode-cn.com/problems/student-attendance-record-ii/)
+
+
+### 13.字典树
+
+- #### [212. 单词搜索 II](https://leetcode-cn.com/problems/word-search-ii/)
+
+- #### [208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
+
+
+### 13.并查集（uninon find)
+
+- #### [547. 朋友圈](https://leetcode-cn.com/problems/friend-circles/)
+
+- #### [200. 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
+
+- #### [130. 被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/)
+
+### 18.排序算法
+
+#### [十大经典排序算法讲解](https://www.cnblogs.com/onepixel/p/7674659.html)
+
+- #### [1122. 数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array/)
+
+- #### [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)
+
+- #### [56. 合并区间](https://leetcode-cn.com/problems/merge-intervals/)（注意本题的代码需要好好理解）
+
+  ```
+  //将一个二维数组按照每个一维数组的首字母排序
+  Arrays.sort(intervals, Comparator.comparingInt(i -> i[0]));
+  result.toArray(new int[result.size()][]);
+  ```
+
+- #### [493. 翻转对](https://leetcode-cn.com/problems/reverse-pairs/)（泛型 逆序对问题 很常见要重视）
+
+- #### [剑指 Offer 51. 数组中的逆序对](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/)
+
+
+### 位运算
+
+- #### [191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)
+
+- #### [231. 2的幂](https://leetcode-cn.com/problems/power-of-two/)
+
+- #### [190. 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/)
+
+- #### [338. 比特位计数](https://leetcode-cn.com/problems/counting-bits/)
+
+- #### [51. N皇后](https://leetcode-cn.com/problems/n-queens/)
+
+- #### [52. N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)
+
 
 ### 高频题
 
-#### [22.括号生成](https://github.com/zhangguodong95/leetcode/blob/master/22.%20%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90.md#22-%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90)
+- #### [22.括号生成](https://github.com/zhangguodong95/leetcode/blob/master/22.%20%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90.md#22-%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90)
 
-#### [102. 二叉树的层序遍历](https://github.com/zhangguodong95/leetcode/blob/master/102.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86.md#102-%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86)
+- #### [102. 二叉树的层序遍历](https://github.com/zhangguodong95/leetcode/blob/master/102.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86.md#102-%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86)
 
-#### [126. 单词接龙 II](https://leetcode-cn.com/problems/word-ladder-ii/)
+- #### [126. 单词接龙 II](https://leetcode-cn.com/problems/word-ladder-ii/)
 
+### 字符串
+
+**字符串基础问题**
+
+- #### [709. 转换成小写字母](https://leetcode-cn.com/problems/to-lower-case/)
+
+- #### [58. 最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/)
+
+- #### [771. 宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/)
+
+- #### [387. 字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)
+
+- #### [8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)
+
+**字符串操作问题**
+
+- #### [14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)
+
+- #### [344. 反转字符串](https://leetcode-cn.com/problems/reverse-string/)
+
+- #### [541. 反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii/)
+
+- #### [151. 翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)
+
+- https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/
+
+- https://leetcode-cn.com/problems/reverse-only-letters/
+
+**异位词问题**
+
+- https://leetcode-cn.com/problems/valid-anagram/
+- https://leetcode-cn.com/problems/group-anagrams/
+- https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/
+
+**回文串问题**
+
+- https://leetcode-cn.com/problems/valid-palindrome/
+- https://leetcode-cn.com/problems/valid-palindrome-ii/
+- https://leetcode-cn.com/problems/longest-palindromic-substring/
+
+**最长子串、子序列问题**
+
+- #### [1143. 最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)（它还有变换形式 最长公共子串）
+
+- #### [72. 编辑距离](https://leetcode-cn.com/problems/edit-distance/)
+
+- #### [5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)
+
+**字符串+DP问题**
+
+- https://leetcode-cn.com/problems/regular-expression-matching/
+- https://leetcode-cn.com/problems/regular-expression-matching/solution/ji-yu-guan-fang-ti-jie-gen-xiang-xi-de-jiang-jie-b/（重点）
+- https://leetcode-cn.com/problems/wildcard-matching/
+- https://leetcode-cn.com/problems/distinct-subsequences/
+
+### 剑指 offer
+
+- #### [剑指 Offer 14- I. 剪绳子](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/)
