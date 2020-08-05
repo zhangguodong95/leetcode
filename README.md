@@ -72,9 +72,66 @@
 
 ### 7.泛型递归、树的递归
 
+​	**实战题目**
+
+- #### [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
+
+- #### [22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)
+
+- #### [226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)
+
+- #### [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)（需要重新看，多理解，中序遍历的一个应用）
+
+- #### [104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+
+- #### [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)（要考虑没有叶子节点的情况，即是null不是叶子节点）
+
+- https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/
+
+**课后作业**
+
+- #### [236. 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)（二叉树后续遍历的一个应用）
+
+- #### [105. 从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+
+- #### [77. 组合](https://leetcode-cn.com/problems/combinations/)
+
+- #### [46. 全排列](https://leetcode-cn.com/problems/permutations/)
+
+- #### [47. 全排列 II](https://leetcode-cn.com/problems/permutations-ii/)
+
 ### 8. 分治、回溯
 
+**预习题目**
 
+- #### [22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)
+
+- #### [50.Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)
+
+**回溯算法解题套路框架**
+
+[套路框架](https://labuladong.gitbook.io/algo/di-ling-zhang-bi-du-xi-lie/hui-su-suan-fa-xiang-jie-xiu-ding-ban)
+
+- #### [78. 子集](https://leetcode-cn.com/problems/subsets/)
+
+- #### [46. 全排列](https://leetcode-cn.com/problems/permutations/)
+
+- #### [77. 组合](https://leetcode-cn.com/problems/combinations/)
+
+```
+注意：向List<List<Integer>> res 中添加list 的时候 最好使用 res.add(new ArrayList(curr))
+不要直接使用res.add(curr) 其中curr 为一个 ArrayList
+```
+
+**实战题目**
+
+- [https://leetcode-cn.com/problems/majority-element/description/ ](https://leetcode-cn.com/problems/majority-element/description/)（简单、但是高频）
+
+- https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/
+
+- https://leetcode-cn.com/problems/n-queens/
+
+- #### [79. 单词搜索](https://leetcode-cn.com/problems/word-search/)
 
 ### 9.深度优先搜索和广度优先搜索
 
@@ -135,7 +192,7 @@
 
 - #### [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)  
 
-  #### **实战题目**
+  **实战题目**
 
 - #### [198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/)
 
@@ -155,7 +212,7 @@
 
 - #### [一个方法团灭6道股票问题](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-l-3/)
 
-**家庭作业**
+  **家庭作业**
 
 - #### [32. 最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)
 
@@ -176,14 +233,11 @@
 - #### [552. 学生出勤记录 II](https://leetcode-cn.com/problems/student-attendance-record-ii/)
 
 
-### 13.字典树
+### 13.字典树和并查集（uninon find)
 
 - #### [212. 单词搜索 II](https://leetcode-cn.com/problems/word-search-ii/)
 
 - #### [208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
-
-
-### 13.并查集（uninon find)
 
 - #### [547. 朋友圈](https://leetcode-cn.com/problems/friend-circles/)
 
@@ -191,9 +245,26 @@
 
 - #### [130. 被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/)
 
+### 17.布隆过滤器和LRU缓存
+
+​	布隆过滤器用一个很长的二进制向量和一系列随机映射函数。判断一个元素是否在一个集合中。
+
+​	优点：空间效率和查询时间都远远超过一般的算法。
+
+​	缺点：有一定的误识别率和删除困难
+
+​		**在是可能在，不在就是一定不在**
+
+- [布隆过滤器的原理和实现](https://www.cnblogs.com/cpselvis/p/6265825.html)
+- [使用布隆过滤器解决缓存击穿、垃圾邮件识别、集合判重](https://blog.csdn.net/tianyaleixiaowu/article/details/74721877)
+- [布隆过滤器 Java 实现示例      1](https://github.com/lovasoa/bloomfilter/blob/master/src/main/java/BloomFilter.java)
+- [布隆过滤器 Java 实现示例      2](https://github.com/Baqend/Orestes-Bloomfilter)
+
+- #### [146. LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)
+
 ### 18.排序算法
 
-#### [十大经典排序算法讲解](https://www.cnblogs.com/onepixel/p/7674659.html)
+#### [	十大经典排序算法讲解](https://www.cnblogs.com/onepixel/p/7674659.html)
 
 - #### [1122. 数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array/)
 
