@@ -1,0 +1,64 @@
+## [105. 从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+
+根据一棵树的前序遍历与中序遍历构造二叉树。
+
+**注意:**
+你可以假设树中没有重复的元素。
+
+例如，给出
+
+```
+前序遍历 preorder = [3,9,20,15,7]
+中序遍历 inorder = [9,3,15,20,7]
+```
+
+返回如下的二叉树：
+
+```
+
+    3
+   / \
+  9  20
+    /  \
+   15   7
+```
+
+### 代码实现
+
+```java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+  public TreeNode buildTree(int[] preorder, int[] inorder) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < inorder.length; i++) {
+            map.put(inorder[i], i);
+        }
+       return  _build(preorder, inorder, 0, preorder.length, 0, inorder.length,map);
+    }
+
+    public TreeNode _build(int[] preorder, int[] inorder, int p_start, int p_end, int i_start, int i_end,HashMap<Integer, Integer> map) {
+        if (p_start == p_end) return null;
+
+        int node_val = preorder[p_start];
+        TreeNode root = new TreeNode(node_val);
+
+        //找到中序遍历中的根节点的位置
+        int root_index = map.get(root.val);
+        //求左子树的长度
+        int left_length = root_index - i_start;
+        root.left = _build(preorder, inorder, p_start + 1, p_start + 1 + left_length, i_start, root_index,map);
+        root.right = _build(preorder, inorder, p_start + 1 + left_length, p_end, root_index + 1, i_end,map);
+        return root;
+
+    }
+}
+```
+

@@ -22,7 +22,7 @@
 
 - #### [142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
 
-- #### [25. K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
+- #### [25. K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)（用递归的方法 要多写 经常问）
 
 ### 3.数组和链表
 
@@ -110,7 +110,7 @@
 
 **回溯算法解题套路框架**
 
-[套路框架](https://labuladong.gitbook.io/algo/di-ling-zhang-bi-du-xi-lie/hui-su-suan-fa-xiang-jie-xiu-ding-ban)
+[	  套路框架](https://labuladong.gitbook.io/algo/di-ling-zhang-bi-du-xi-lie/hui-su-suan-fa-xiang-jie-xiu-ding-ban)
 
 - #### [78. 子集](https://leetcode-cn.com/problems/subsets/)
 
