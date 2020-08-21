@@ -16,6 +16,8 @@
 
 - #### [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
 
+- #### [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)（注意如果是两个Integer类型进行比较要用equals，有赞笔试真题，要学会在原地解决这个问题）
+
 - #### [24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
 
 - #### [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
@@ -192,7 +194,7 @@
 
 - #### [70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)  
 
-  **实战题目**
+- **实战题目**
 
 - #### [198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/)
 
@@ -212,7 +214,7 @@
 
 - #### [一个方法团灭6道股票问题](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-l-3/)
 
-  **家庭作业**
+- **家庭作业**
 
 - #### [32. 最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)
 
@@ -232,6 +234,16 @@
 
 - #### [552. 学生出勤记录 II](https://leetcode-cn.com/problems/student-attendance-record-ii/)
 
+- #### [1262. 可被三整除的最大和](https://leetcode-cn.com/problems/greatest-sum-divisible-by-three/)（有赞笔试真题）
+
+-    **最长上升子序列问题**
+
+- #### [300. 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
+
+- #### [354. 俄罗斯套娃信封问题](https://leetcode-cn.com/problems/russian-doll-envelopes/)（字节跳动原题）
+
+- #### [424. 替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/)（字节原题 滑动窗口问题）
+
 
 ### 13.字典树和并查集（uninon find)
 
@@ -244,6 +256,24 @@
 - #### [200. 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
 
 - #### [130. 被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/)
+
+### 14.高级搜索
+
+### 15.红黑树和AVL树
+
+### 16.位运算
+
+- #### [191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)（使用技巧 n & (n-1)是清除n二进制位的最后一个0）
+
+- #### [231. 2的幂](https://leetcode-cn.com/problems/power-of-two/)（如果一个数是2的幂 那么二进制表达只有一个1）
+
+- #### [190. 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/)
+
+- #### [338. 比特位计数](https://leetcode-cn.com/problems/counting-bits/)
+
+- #### [51. N皇后](https://leetcode-cn.com/problems/n-queens/)
+
+- #### [52. N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)
 
 ### 17.布隆过滤器和LRU缓存
 
@@ -266,6 +296,8 @@
 
 #### [	十大经典排序算法讲解](https://www.cnblogs.com/onepixel/p/7674659.html)
 
+- #### 堆的实现 要熟练 面试会考
+
 - #### [1122. 数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array/)
 
 - #### [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)
@@ -282,33 +314,13 @@
 
 - #### [剑指 Offer 51. 数组中的逆序对](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/)
 
-
-### 位运算
-
-- #### [191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)
-
-- #### [231. 2的幂](https://leetcode-cn.com/problems/power-of-two/)
-
-- #### [190. 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/)
-
-- #### [338. 比特位计数](https://leetcode-cn.com/problems/counting-bits/)
-
-- #### [51. N皇后](https://leetcode-cn.com/problems/n-queens/)
-
-- #### [52. N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)
+### 19.高级动态规划
 
 
-### 高频题
 
-- #### [22.括号生成](https://github.com/zhangguodong95/leetcode/blob/master/22.%20%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90.md#22-%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90)
+### 20.字符串
 
-- #### [102. 二叉树的层序遍历](https://github.com/zhangguodong95/leetcode/blob/master/102.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86.md#102-%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86)
-
-- #### [126. 单词接龙 II](https://leetcode-cn.com/problems/word-ladder-ii/)
-
-### 字符串
-
-**字符串基础问题**
+- **字符串基础问题**
 
 - #### [709. 转换成小写字母](https://leetcode-cn.com/problems/to-lower-case/)
 
@@ -320,13 +332,13 @@
 
 - #### [8. 字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)
 
-**字符串操作问题**
+- **字符串操作问题**
 
-- #### [14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)
+- #### [14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) （使用StringBuilder添加的速度远远快于字符串拼接）
 
 - #### [344. 反转字符串](https://leetcode-cn.com/problems/reverse-string/)
 
-- #### [541. 反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii/)
+- #### [541. 反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii/)（需要多写几遍 ）
 
 - #### [151. 翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)
 
@@ -334,19 +346,19 @@
 
 - https://leetcode-cn.com/problems/reverse-only-letters/
 
-**异位词问题**
+- **异位词问题**
 
 - https://leetcode-cn.com/problems/valid-anagram/
 - https://leetcode-cn.com/problems/group-anagrams/
 - https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/
 
-**回文串问题**
+- **回文串问题**
 
 - https://leetcode-cn.com/problems/valid-palindrome/
 - https://leetcode-cn.com/problems/valid-palindrome-ii/
 - https://leetcode-cn.com/problems/longest-palindromic-substring/
 
-**最长子串、子序列问题**
+- **最长子串、子序列问题**
 
 - #### [1143. 最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)（它还有变换形式 最长公共子串）
 
@@ -354,7 +366,7 @@
 
 - #### [5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)
 
-**字符串+DP问题**
+- **字符串+DP问题**
 
 - https://leetcode-cn.com/problems/regular-expression-matching/
 - https://leetcode-cn.com/problems/regular-expression-matching/solution/ji-yu-guan-fang-ti-jie-gen-xiang-xi-de-jiang-jie-b/（重点）
@@ -364,3 +376,14 @@
 ### 剑指 offer
 
 - #### [剑指 Offer 14- I. 剪绳子](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/)
+
+### 高频题
+
+- #### [22.括号生成](https://github.com/zhangguodong95/leetcode/blob/master/22.%20%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90.md#22-%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90)
+
+- #### [102. 二叉树的层序遍历](https://github.com/zhangguodong95/leetcode/blob/master/102.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86.md#102-%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86)
+
+- #### [126. 单词接龙 II](https://leetcode-cn.com/problems/word-ladder-ii/)
+
+
+
