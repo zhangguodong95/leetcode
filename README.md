@@ -127,7 +127,7 @@
 
 **实战题目**
 
-- [https://leetcode-cn.com/problems/majority-element/description/ ](https://leetcode-cn.com/problems/majority-element/description/)（简单、但是高频）
+- #### [169. 多数元素](https://leetcode-cn.com/problems/majority-element/)（简单、但是高频 摩尔投票法 核心就是对拼消耗）
 
 - https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/
 
@@ -144,6 +144,10 @@
 - #### [200.岛屿数量](https://github.com/zhangguodong95/leetcode/blob/master/200.%20%E5%B2%9B%E5%B1%BF%E6%95%B0%E9%87%8F.md#200-%E5%B2%9B%E5%B1%BF%E6%95%B0%E9%87%8F)
 
 - #### [515. 在每个树行中找最大值](https://github.com/zhangguodong95/leetcode/blob/master/515.%20%E5%9C%A8%E6%AF%8F%E4%B8%AA%E6%A0%91%E8%A1%8C%E4%B8%AD%E6%89%BE%E6%9C%80%E5%A4%A7%E5%80%BC.md#515-%E5%9C%A8%E6%AF%8F%E4%B8%AA%E6%A0%91%E8%A1%8C%E4%B8%AD%E6%89%BE%E6%9C%80%E5%A4%A7%E5%80%BC)
+
+- **每日一题**
+
+- #### [841. 钥匙和房间](https://leetcode-cn.com/problems/keys-and-rooms/)
 
 
 ### 10.贪心算法
@@ -244,6 +248,10 @@
 
 - #### [424. 替换后的最长重复字符](https://leetcode-cn.com/problems/longest-repeating-character-replacement/)（字节原题 滑动窗口问题）
 
+- **每日一题**
+
+- #### [486. 预测赢家](https://leetcode-cn.com/problems/predict-the-winner/)
+
 
 ### 13.字典树和并查集（uninon find)
 
@@ -342,20 +350,24 @@
 
 - #### [151. 翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)
 
-- https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/
+- #### [557. 反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/)
 
-- https://leetcode-cn.com/problems/reverse-only-letters/
+- #### [917. 仅仅反转字母](https://leetcode-cn.com/problems/reverse-only-letters/)
 
 - **异位词问题**
 
-- https://leetcode-cn.com/problems/valid-anagram/
-- https://leetcode-cn.com/problems/group-anagrams/
+- #### [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)
+
+- #### [49. 字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/)
+
 - https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/
 
 - **回文串问题**
 
-- https://leetcode-cn.com/problems/valid-palindrome/
-- https://leetcode-cn.com/problems/valid-palindrome-ii/
+- #### [125. 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)（学会双指针法在原地解决问题 常用API Character.isLetterOrDigit() ，Character.toLowerCase()）
+
+- #### [680. 验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/)(注意subString()是含头不含尾)
+
 - https://leetcode-cn.com/problems/longest-palindromic-substring/
 
 - **最长子串、子序列问题**
@@ -369,8 +381,11 @@
 - **字符串+DP问题**
 
 - https://leetcode-cn.com/problems/regular-expression-matching/
+
 - https://leetcode-cn.com/problems/regular-expression-matching/solution/ji-yu-guan-fang-ti-jie-gen-xiang-xi-de-jiang-jie-b/（重点）
+
 - https://leetcode-cn.com/problems/wildcard-matching/
+
 - https://leetcode-cn.com/problems/distinct-subsequences/
 
 ### 剑指 offer
